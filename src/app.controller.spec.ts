@@ -16,7 +16,9 @@ describe('AppController', () => {
 
   describe('root', () => {
     it('should return "hola estudiante de Programación de sistemas avanzados, quieres jugar un juego?😈"', () => {
-      expect(appController.getHello()).toBe('Hello World!');
+      expect(appController.getHello()).toBe(
+        'hola estudiante de Programación de sistemas avanzados, quieres jugar un juego?😈',
+      );
     });
   });
 });
